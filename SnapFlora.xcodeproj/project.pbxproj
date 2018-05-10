@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95D424EC206F014C00643B27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D424EB206F014C00643B27 /* AppDelegate.swift */; };
+		95D424EE206F014C00643B27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D424ED206F014C00643B27 /* ViewController.swift */; };
+		95D424F1206F014C00643B27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95D424EF206F014C00643B27 /* Main.storyboard */; };
+		95EE44DE20A2D476005DED44 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95EE44DD20A2D476005DED44 /* Launch Screen.storyboard */; };
+		95EE44E520A4E84E005DED44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95EE44E420A4E84E005DED44 /* Assets.xcassets */; };
+		9DBD40EE6A8641A5853D66BA /* Pods_SnapFlora.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF79D1C2E5E0BEF4F1C664E /* Pods_SnapFlora.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3168273FA26AE5E4F736D46D /* Pods-SnapFlora.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapFlora.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnapFlora/Pods-SnapFlora.debug.xcconfig"; sourceTree = "<group>"; };
+		887EB1283E266BBA98708CFA /* Pods-SnapFlora.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapFlora.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnapFlora/Pods-SnapFlora.release.xcconfig"; sourceTree = "<group>"; };
+		95D424E8206F014C00643B27 /* SnapFlora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapFlora.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95D424EB206F014C00643B27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95D424ED206F014C00643B27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95D424F0206F014C00643B27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95D424F7206F014C00643B27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95EE44DD20A2D476005DED44 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		95EE44E420A4E84E005DED44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAF79D1C2E5E0BEF4F1C664E /* Pods_SnapFlora.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapFlora.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95D424E5206F014C00643B27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DBD40EE6A8641A5853D66BA /* Pods_SnapFlora.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92E8C44F7D60E59E49FF54BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3168273FA26AE5E4F736D46D /* Pods-SnapFlora.debug.xcconfig */,
+				887EB1283E266BBA98708CFA /* Pods-SnapFlora.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		95D424DF206F014C00643B27 = {
+			isa = PBXGroup;
+			children = (
+				95D424EA206F014C00643B27 /* SnapFlora */,
+				95D424E9206F014C00643B27 /* Products */,
+				92E8C44F7D60E59E49FF54BF /* Pods */,
+				9B18B61690438B6CFBF65860 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		95D424E9206F014C00643B27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95D424E8206F014C00643B27 /* SnapFlora.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95D424EA206F014C00643B27 /* SnapFlora */ = {
+			isa = PBXGroup;
+			children = (
+				95D424EB206F014C00643B27 /* AppDelegate.swift */,
+				95D424ED206F014C00643B27 /* ViewController.swift */,
+				95D424EF206F014C00643B27 /* Main.storyboard */,
+				95EE44DD20A2D476005DED44 /* Launch Screen.storyboard */,
+				95EE44E420A4E84E005DED44 /* Assets.xcassets */,
+				95D424F7206F014C00643B27 /* Info.plist */,
+			);
+			path = SnapFlora;
+			sourceTree = "<group>";
+		};
+		9B18B61690438B6CFBF65860 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAF79D1C2E5E0BEF4F1C664E /* Pods_SnapFlora.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95D424E7206F014C00643B27 /* SnapFlora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95D424FA206F014C00643B27 /* Build configuration list for PBXNativeTarget "SnapFlora" */;
+			buildPhases = (
+				C1D4EA94407D9EDDFE33CA9B /* [CP] Check Pods Manifest.lock */,
+				95D424E4206F014C00643B27 /* Sources */,
+				95D424E5206F014C00643B27 /* Frameworks */,
+				95D424E6206F014C00643B27 /* Resources */,
+				370F479C830C252B5DEC987C /* [CP] Embed Pods Frameworks */,
+				5007225522C8E02EC9DEA84C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapFlora;
+			productName = WhatFlower;
+			productReference = 95D424E8206F014C00643B27 /* SnapFlora.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95D424E0206F014C00643B27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Louis Menacho";
+				TargetAttributes = {
+					95D424E7206F014C00643B27 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 95D424E3206F014C00643B27 /* Build configuration list for PBXProject "SnapFlora" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95D424DF206F014C00643B27;
+			productRefGroup = 95D424E9206F014C00643B27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95D424E7206F014C00643B27 /* SnapFlora */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95D424E6206F014C00643B27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95EE44DE20A2D476005DED44 /* Launch Screen.storyboard in Resources */,
+				95EE44E520A4E84E005DED44 /* Assets.xcassets in Resources */,
+				95D424F1206F014C00643B27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		370F479C830C252B5DEC987C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SnapFlora/Pods-SnapFlora-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnapFlora/Pods-SnapFlora-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5007225522C8E02EC9DEA84C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnapFlora/Pods-SnapFlora-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1D4EA94407D9EDDFE33CA9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SnapFlora-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95D424E4206F014C00643B27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95D424EE206F014C00643B27 /* ViewController.swift in Sources */,
+				95D424EC206F014C00643B27 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		95D424EF206F014C00643B27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95D424F0206F014C00643B27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95D424F8206F014C00643B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95D424F9206F014C00643B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95D424FB206F014C00643B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3168273FA26AE5E4F736D46D /* Pods-SnapFlora.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RUKEA88AF2;
+				INFOPLIST_FILE = "$(SRCROOT)/SnapFlora/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.louismenacho.SnapFlora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		95D424FC206F014C00643B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 887EB1283E266BBA98708CFA /* Pods-SnapFlora.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RUKEA88AF2;
+				INFOPLIST_FILE = "$(SRCROOT)/SnapFlora/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.louismenacho.SnapFlora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95D424E3206F014C00643B27 /* Build configuration list for PBXProject "SnapFlora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95D424F8206F014C00643B27 /* Debug */,
+				95D424F9206F014C00643B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95D424FA206F014C00643B27 /* Build configuration list for PBXNativeTarget "SnapFlora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95D424FB206F014C00643B27 /* Debug */,
+				95D424FC206F014C00643B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95D424E0206F014C00643B27 /* Project object */;
+}
