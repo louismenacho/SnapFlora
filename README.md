@@ -6,12 +6,11 @@
 <br/><br/>
 
 Smart flower identification, powered by Apple's Core ML technology. Just take a photo of a flower and a description of the flower will be displayed from Wikipedia.
+
 #
 
 <img align="left" width="282" height="611" src="https://raw.githubusercontent.com/louismenacho/Images/master/Apps/SnapFlora/1.png"> 
-
 <img align="left" width="282" height="611" src="https://raw.githubusercontent.com/louismenacho/Images/master/Apps/SnapFlora/2.png"> 
-
 <img width="282" height="611" src="https://raw.githubusercontent.com/louismenacho/Images/master/Apps/SnapFlora/3.png"> 
 
 #
