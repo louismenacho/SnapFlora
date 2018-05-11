@@ -1,9 +1,7 @@
-<img align="left" width="120" height="120" src="https://raw.githubusercontent.com/louismenacho/Images/master/Apps/SnapFlora/icon.png"> 
+<img align="left" width="100" height="100" src="https://raw.githubusercontent.com/louismenacho/Images/master/Apps/SnapFlora/icon.png"> 
 
 ## SnapFlora
-###### Instant Flower Identification
-
-<br/>
+###### Instant Flower Identification . 
 
 Smart flower identification, powered by Apple's Core ML technology. Just take a photo of a flower and a description of the flower will be displayed from Wikipedia.
 #
