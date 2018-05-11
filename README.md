@@ -1,3 +1,4 @@
+<br/>
 <img align="left" width="140" height="140" src="https://raw.githubusercontent.com/louismenacho/Images/master/Apps/SnapFlora/icon.png"> 
 
 ## SnapFlora
