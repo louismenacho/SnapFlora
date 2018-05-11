@@ -3,7 +3,8 @@
 # SnapFlora
 ###### Instant Flower Identification
 
-<br/><br/>
+<br/>
+<br/>
 
 Smart flower identification, powered by Apple's Core ML technology. Just take a photo of a flower and a description of the flower will be displayed from Wikipedia.
 
