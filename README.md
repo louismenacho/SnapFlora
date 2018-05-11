@@ -1,4 +1,4 @@
-<img align="left" width="180" height="180" src="https://raw.githubusercontent.com/louismenacho/Images/master/Apps/SnapFlora/icon.png"> 
+<img align="left" width="170" height="170" src="https://raw.githubusercontent.com/louismenacho/Images/master/Apps/SnapFlora/icon.png"> 
 
 # SnapFlora
 ###### Instant Flower Identification
