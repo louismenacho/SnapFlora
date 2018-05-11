@@ -1,6 +1,6 @@
  <img align="left" width="180" height="180" src="https://raw.githubusercontent.com/louismenacho/Images/master/Apps/SnapFlora/icon.png"> 
 
-## SnapFlora
+# SnapFlora
 ###### Instant Flower Identification
 
 <br/><br/><br/>
