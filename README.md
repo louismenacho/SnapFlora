@@ -3,7 +3,7 @@
 ## SnapFlora
 ###### Instant Flower Identification
 
-<br/><br/><br/>
+<br/>
 
 ![](https://github.com/louismenacho/Images/blob/master/Apps/SnapFlora/1.PNG)
 ![](https://github.com/louismenacho/Images/blob/master/Apps/SnapFlora/2.PNG)
