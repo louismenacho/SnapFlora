@@ -13,4 +13,4 @@ Smart flower identification, powered by Apple's Core ML technology. Just take a 
 ![](https://github.com/louismenacho/Images/blob/master/Apps/SnapFlora/3.PNG)
 #
 
-[Developer Website](https://louismenacho.github.io/)
+[Developer Website](https://louismenacho.github.io)
