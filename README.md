@@ -16,6 +16,8 @@ Smart flower identification, powered by Apple's Core ML technology. Just take a 
 
 #
 
-<a href="https://louismenacho.github.io"><img align="right" src="https://raw.githubusercontent.com/louismenacho/Images/master/compass.png"></a>
+<a href="https://louismenacho.github.io">
+  <img align="right" src="https://raw.githubusercontent.com/louismenacho/Images/master/compass.png">
+</a>
 
 [Developer Website](https://louismenacho.github.io)
